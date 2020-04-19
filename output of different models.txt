@@ -1,0 +1,34 @@
+Model outputs
+
+1. Decision tree Regressor
+    Mean:  4.281657885427801
+    Standard deviation 0.7927766246201837
+
+
+2. Linear Regressor
+    Mean:  5.030437102767306
+    Standard deviation 1.0607661158294834
+
+3. Random Forest regressor
+    Mean:  3.3060303223025835
+    Standard deviation 0.7164726828511865
+    
+    
+    value = mean (+/-) std
+    
+==============================================================================================================    
+
+Conclusion: from these results Random Forest Regressor is better than other two in solving this problem here
+
+so we will choose random forest regressor this problem
+
+
+We should try as many models as possible for us for better searching for model to be fitted to the problem
+===============================================================================================================
+
+After final testing with tesing data
+
+If we have decided the model then we will go for testing on test dataset
+
+Final Result is : final_rmse = 2.956217363124573
+which is better so our model training was successfull
